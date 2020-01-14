@@ -1,18 +1,28 @@
-# openldap_install
-bash shell脚本一键安装openldap server和client
+## Openldap install 一键安装脚本
 
-#---------------LDAP Server-----------------
-#Install:
-#./install.sh
-#Uninstall:
-#./uninstall.sh
-#Show Ldap Server Info:(Local LDAP server)
-#./check.sh
-#
-#
-#---------------LDAP Client-----------------
-#Install:
-#./install_client.sh
-#Uninstall:
-#./uninstall_client.sh
-#
+# LDAP Server
+
+1、安装:
+```shell
+./install.sh
+```
+2、卸载:
+```shell
+./uninstall.sh
+```
+3、查看LDAP Server状态:(检查LDAP server服务)
+```shell
+./check.sh
+```
+
+# LDAP Client
+
+1、安装:
+```shell
+./install_client.sh
+```
+
+2、卸载:
+```shell
+./uninstall_client.sh
+```
