@@ -37,6 +37,9 @@ cp $CLIENT_TEMPLATE_PATH/pam_ldap.conf.template $CLIENT_OUTPUT_PATH/pam_ldap.con
 sed -i "s#\${ldap_server_ip}#$LDAP_SERVER_IP#g" $CLIENT_OUTPUT_PATH/ldap.conf
 sed -i "s#\${ldap_server_ip}#$LDAP_SERVER_IP#g" $CLIENT_OUTPUT_PATH/nslcd.conf
 sed -i "s#\${ldap_server_ip}#$LDAP_SERVER_IP#g" $CLIENT_OUTPUT_PATH/pam_ldap.conf
+sed -i "s#\${dc}#$DC#g" $CLIENT_OUTPUT_PATH/ldap.conf
+sed -i "s#\${dc}#$DC#g" $CLIENT_OUTPUT_PATH/nslcd.conf
+sed -i "s#\${dc}#$DC#g" $CLIENT_OUTPUT_PATH/pam_ldap.conf
 
 
 

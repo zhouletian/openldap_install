@@ -17,7 +17,6 @@ fi
 #LDAP_DELETE_EXPECT_FILE=$pragram_path/output/do_ldap_delete_expect_$USER_NAME.expect
 DO_LDAP_DELETE_SHELL=$pragram_path/bin/do_ldap_delete.sh
 LDAP_MANAGER="cn=Manager,dc=$DC,dc=com"
-LDAP_MANAGER_PASSWD=yoyosys
 
 #cat $LDAP_DELETE_EXPECT_TEMPLATE > $LDAP_DELETE_EXPECT_FILE
 

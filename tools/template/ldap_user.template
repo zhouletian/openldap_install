@@ -1,17 +1,19 @@
+dn: cn=${group_name},ou=Group,dc=${dc},dc=com
+objectClass: posixGroup
+objectClass: top
+cn: ${group_name}
+gidNumber: ${group_id}
+memberUid: ${user_name}
+
 dn: uid=${user_name},ou=People,dc=${dc},dc=com
+uid: ${user_name}
 cn: ${user_name}
-sn: Linux
-userPassword: ${user_passwd}
-objectClass: inetOrgPerson
+objectClass: account
 objectClass: posixAccount
+objectClass: top
 objectClass: shadowAccount
+userPassword: ${user_passwd}
 loginShell: /bin/bash
 uidNumber: ${user_id}
 gidNumber: ${group_id}
 homeDirectory: /home/${user_name}
-
-dn: cn=${group_name},ou=Group,dc=${dc},dc=com
-objectClass: posixGroup
-cn: ${group_name}
-gidNumber: ${group_id}
-memberUid: ${user_name}

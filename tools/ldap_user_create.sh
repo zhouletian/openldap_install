@@ -33,7 +33,6 @@ sed -i "s/\${dc}/$DC/g" $LDIF_FILE
 #EXPECT_FILE=$pragram_path/output/do_ldap_cmd_expect_$USER_NAME.expect
 DO_CREATE_SHELL=$pragram_path/bin/do_ldap_create.sh
 LDAP_MANAGER="cn=Manager,dc=$DC,dc=com"
-LDAP_MANAGER_PASSWD=yoyosys
 
 #cat $EXPECT_TEMPLATE > $EXPECT_FILE
 
