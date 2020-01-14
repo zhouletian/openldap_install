@@ -1,0 +1,17 @@
+dn: uid=${user_name},ou=People,dc=${dc},dc=com
+cn: ${user_name}
+sn: Linux
+userPassword: ${user_passwd}
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+loginShell: /bin/bash
+uidNumber: ${user_id}
+gidNumber: ${group_id}
+homeDirectory: /home/${user_name}
+
+dn: cn=${group_name},ou=Group,dc=${dc},dc=com
+objectClass: posixGroup
+cn: ${group_name}
+gidNumber: ${group_id}
+memberUid: ${user_name}

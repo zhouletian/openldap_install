@@ -1,0 +1,15 @@
+#---------------LDAP Server-----------------
+#Install:
+#./install.sh
+#Uninstall:
+#./uninstall.sh
+#Show Ldap Server Info:
+#./check.sh
+#
+#
+#---------------LDAP Client-----------------
+#Install:
+#./install_client.sh
+#Uninstall:
+#./uninstall_client.sh
+#

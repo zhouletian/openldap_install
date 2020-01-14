@@ -1,0 +1,13 @@
+#------------------------------LDAP-----------------
+#Create user
+#./ldap_user_create.sh uid username passwd gid groupname
+#./ldap_user_create.sh "1100" app2 yoyosys "1100" app2_group
+
+#Delete user
+#./ldap_user_delete.sh username groupname
+#./ldap_user_delete.sh app4 app4
+
+#Modify User Password
+#./ldap_user_modify_passwd.sh username newPasswd
+#./ldap_user_modify_passwd.sh app2 123456
+#

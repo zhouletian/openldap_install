@@ -1,0 +1,20 @@
+dn: dc=${dc},dc=com
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+o: Server com
+dc: ${dc}
+
+dn: cn=Manager,dc=${dc},dc=com
+objectClass: organizationalRole
+cn: Manager
+description: Directory Manager
+
+dn: ou=People,dc=${dc},dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=${dc},dc=com
+objectClass: organizationalUnit
+ou: Group
+

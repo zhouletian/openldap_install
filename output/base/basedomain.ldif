@@ -1,0 +1,20 @@
+dn: dc=cebbank,dc=com
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+o: Server com
+dc: cebbank
+
+dn: cn=Manager,dc=cebbank,dc=com
+objectClass: organizationalRole
+cn: Manager
+description: Directory Manager
+
+dn: ou=People,dc=cebbank,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=cebbank,dc=com
+objectClass: organizationalUnit
+ou: Group
+
