@@ -3,6 +3,7 @@
 export OTHER_LDAP_SERVER_IP=172.16.150.171
 #server的ID。两台ldap_server不能冲突
 export SERVER_ID=0
+#域组件名
 export DC=cebbank
 #管理员密码
 export LDAP_MANAGER_PASSWD=123456
